@@ -13,5 +13,5 @@ anoNascimento = 2023 - idade - 1
 console.log(nome, sobrenome, 'tem', idade, 'anos, e pesa', peso,'Kg tem', alturaEmMetros, 'de altura e seu imc é de', indiceMassaCorporal, nome, 'nasceu em', anoNascimento)
 console.log('')
 console.log(`${nome} ${sobrenome} tem ${idade} anos, pesa ${peso} kg`);
-console.log(`tem ${alturaEmMetros} de altura e seu IMC é de ${indiceMassaCorporal}`);
+console.log(`tem ${alturaEmMetros} de altura e seu IMC é de ${indiceMassaCorporal.toFixed(2)}`);
 console.log(`${nome} nasceu em ${anoNascimento}.`);
