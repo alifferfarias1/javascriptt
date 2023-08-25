@@ -1,0 +1,38 @@
+body{
+    display: grid;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px; /*  define o tamanho das colunas, 200px é fixo e 1fr ocupa o resto da tela a coluna do 1 e do 3 */
+    grid-template-rows: 20% 1fr 10%; /*  tres linhas  /* 
+    /* row-gap: ; espaço entre as linhas
+    column-gap: ; espaço entre as colunas
+    gap: ;  espaço entre linhas e colunas */ 
+  
+}
+
+header{
+    background-color: aqua;
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+  
+}
+
+main{
+    background-color: blueviolet;
+    
+}
+
+footer{
+    background-color: chartreuse;
+    grid-column: 1/4; 
+   
+}
+
+aside{
+    background-color: crimson;
+    grid-column: 2/4;
+
+}

@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+section{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    gap: 2px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div{
+    background-color: purple;
+   
+}
+/* colocando a div 1 dentro de um espaço vago align-self (alinha vertical) pode ser start que é por padrão podemos colocar center e end como propriedade*/
+div:nth-child(){
+    align-self: center; 
+}
+/* temos também justifi-content que alinha na horizontal também começa no start e podemos colocar center e end
+div:nth-child(1){
+    justify-self: center; 
+}    place-self faz os dois em 1 justify e align*/
