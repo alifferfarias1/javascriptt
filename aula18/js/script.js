@@ -21,16 +21,8 @@ function meuEscopo() {
         })
     
         console.log(pessoas)
-        resultados.innerHTML += `<p>Nome:${nome.value} Sobrenome: ${sobrenome.value} Peso: ${peso.value}
-        Altura: ${altura.value}</p> `;
+        resultados.innerHTML += `<p>Nome:${nome.value} <br> Sobrenome: ${sobrenome.value} <br> Peso: ${peso.value} <br> Altura: ${altura.value}</p> `;
 
-
-    //     resultados.innerHTML += `
-    //         <p>Nome: ${nome.value}
-    //         Sobrenome: ${sobrenome.value}
-    //         Peso: ${peso.value}
-    //         Altura: ${altura.value}</p> `;
-    // 
 }
 
     form.addEventListener('submit', recebeEventoForm);
