@@ -1,6 +1,6 @@
 function meuEscopo() {
-    const form = document.querySelector('.form');  // Selecionando o formulário corretamente
-    const resultados = document.querySelector('.resultados');  // Selecionando o elemento de resultados
+    const form = document.querySelector('#form');  // Selecionando o formulário corretamente
+    const resultados = document.querySelector('#resultados');  // Selecionando o elemento de resultados
 
     const pessoas = [];
 
@@ -8,10 +8,10 @@ function meuEscopo() {
         evento.preventDefault();
 
         
-        const nome = form.querySelector('.nome');  // Selecionando os campos corretamente
-        const sobrenome = form.querySelector('.sobrenome');
-        const peso = form.querySelector('.peso');
-        const altura = form.querySelector('.altura');
+        const nome = form.querySelector('#nome');  // Selecionando os campos corretamente
+        const sobrenome = form.querySelector('#sobrenome');
+        const peso = form.querySelector('#peso');
+        const altura = form.querySelector('#altura');
         
         pessoas.push({
             nome: nome.value,
