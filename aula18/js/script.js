@@ -21,7 +21,10 @@ function meuEscopo() {
         })
     
         console.log(pessoas)
-        resultados.innerHTML += `<p>Nome:${nome.value} <br> Sobrenome: ${sobrenome.value} <br> Peso: ${peso.value} <br> Altura: ${altura.value}</p> `;
+        
+        let imc = peso.value / (altura.value * altura.value)
+
+        resultados.innerHTML += `<p>Nome:${nome.value} <br> Sobrenome: ${sobrenome.value} <br> Peso: ${peso.value} <br> Altura: ${altura.value} <br> IMC: ${imc.toFixed(2)}</p>  `;
 
 }
 

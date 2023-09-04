@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Praticando Javascript - Exercício 1</title>
+</head>
+<body>
+       
+</body>
+     
+	<script type="text/javascript">
+    
+		var numero1 = prompt("Insira o primeiro número: ");
+		var numero2 = prompt("Insira o segundo número: ");
+        var operacao = prompt("Insira a operação matematica que deseja realizar (+ - / *)");
+
+        if(operacao == '+')
+            resultadoOperacao = soma(numero1, numero2);
+
+        if(operacao == '-')
+            resultadoOperacao = diminuir(numero1, numero2);
+
+        if(operacao == '/')
+            resultadoOperacao = divida(numero1, numero2);
+
+        if(operacao == '*')
+            resultadoOperacao = multiplique(numero1, numero2);
+    
+		alert('O resultado da operação é igual a: ' + resultadoOperacao); 
+
+		function soma(numero1, numero2){
+
+			resultado = Number(numero1) + Number(numero2);
+ 
+			return resultado;
+ 
+		}
+
+		function diminuir(numero1, numero2){
+
+			resultado = Number(numero1) - Number(numero2);
+ 
+			return resultado;
+ 
+		}
+		function divida(numero1, numero2){
+
+			resultado = Number(numero1) / Number(numero2);
+ 
+			return resultado;
+ 
+		}
+
+		function multiplique(numero1, numero2){
+
+			resultado = Number(numero1) * Number(numero2);
+ 
+			return resultado;
+ 
+		}
+	</script>
+</html>
