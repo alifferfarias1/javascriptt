@@ -8,11 +8,13 @@ const a = {
     nome: 'Luiz',
     sobrenome: 'Otávio'
   };
+
+  console.log(a.nome)
   const b = a;
 
   b.nome = 'João';
-  console.log(a);   // note que mesmo mudando apenas o b o valor de a foi alterado e se mudassemos a o de b também seria
-  console.log(b);
+  console.log('A = ',a);   // note que mesmo mudando apenas o b o valor de a foi alterado e se mudassemos a o de b também seria
+  console.log('B = ',b);
 
 
 // caso queiramos que o valor de b não seja alterado caso alteremos o de a podemos fazer o seguinte
@@ -22,4 +24,5 @@ let x = [1, 2, 3]; // note que mesmo alterando o valor do x, não aconteceu nada
 let y = [...x]
 
 x[2] = 0
-console.log(x, y)
+console.log('X = ',x)
+console.log('Y = ',y)

@@ -16,7 +16,7 @@ document.body.innerHTML += `As palavras do seu nome são ${nome.split(' ')}<br>`
 
 
 let ultimasTres = nome.slice(-3, nome.length);
-document.body.innerHTML += `As últimas 3 letras do seu nome são: ${ultimasTres} <br>`;
+document.body.innerHTML += `As últimas 3 letras do seu nome são: ${ultimasTres} <br>`; // nome.slice(-3, nome.length); pega os caracteres começando 3 posições a partir do final até o final da string.
 
 let nomeGrande = nome.toUpperCase();
 let nomePequeno = nome.toLowerCase();
