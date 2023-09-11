@@ -14,3 +14,4 @@ console.log(contaTriplicada)
 
 
 console.log(typeof primeiroNumero)
+
