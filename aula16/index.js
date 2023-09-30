@@ -26,7 +26,7 @@ function criaPessoa (nome, sobrenome, idade) {
         sobrenome: sobrenome,
         idade: idade,
     }; 
-} // quando o nome  dos objetos é igual ao parametro como nesse exemplo acinma ^^ podemos abreviar a funcao
+} // quando o nome  dos objetos é igual ao parametro como nesse exemplo acima ^^ podemos abreviar a funcao
 // function criaPessoa (nome, sobrenome, idade) {  
 //     return{nome, sobrenome, idade }; 
 // }

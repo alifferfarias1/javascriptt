@@ -3,7 +3,7 @@
 || -> true && false -> vai retornar "o valor verdadeiro"
 */
 
-console.log(2 && '')
+console.log(2 && false)
 
 console.log(false || 0 || true)
 console.log(false || true || 0)

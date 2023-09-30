@@ -11,14 +11,15 @@ console.log(variavel)
 // funcao de soma
 // declarei valores inicialmente para x e y caso, não seja enviado nenhum argumeto para seu parametro        
 function soma(x = 1, y = 7){
-    return  x + y;
+    let results = x + y;
+    return  results;
 }
 resultado = soma(1, 2)
 
 console.log(resultado)
 //poderiamos exibir direto no console.log(soma(1, 2))
 
-console.log(soma(1))
+console.log(soma(3))
 
 // outro metodos para criar funções
 // funcao anonima
