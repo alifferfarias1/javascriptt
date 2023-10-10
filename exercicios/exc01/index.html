@@ -13,8 +13,42 @@
 
     <section class="container">
         <h1>Tabela IMC</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>IMC</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Menos que 18,5</td>
+                    <td>Abaixo do peso</td>
+                </tr>
+                <tr>
+                    <td>Entre 18,5 e 24,9</td>
+                    <td>Peso normal</td>
+                </tr>
+                <tr>
+                    <td>Entre 25 e 29,9</td>
+                    <td>Sobrepeso</td>
+                </tr>
+                <tr>
+                    <td>Entre 30 e 34,9</td>
+                    <td>Obesidade 1</td>
+                </tr>
+                <tr>
+                    <td>Entre 35 e 39,9</td>
+                    <td>Obesidade 2</td>
+                </tr>
+                <tr>
+                    <td>Mais do que 40</td>
+                    <td>Obesidade 3</td>
+                </tr>
+            </tbody>
+        </table>
         
-            <ul>
+            <!-- <ul>
                 <div class="coluna">
                     <h3>IMC</h3>
                     <li>Menos que 18,5</li>
@@ -33,16 +67,16 @@
                     <li>Obesidade 2</li>
                     <li>Obesidade 3</li>
                 </div>
-            </ul>
+            </ul> -->
             
 
             <form id="form" action="">
 
                 <label for="ipeso">Peso</label>
-                <input type="text" id="peso" name="ipeso" required>
+                <input type="text" id="peso" name="ipeso" required placeholder="0">
 
                 <label for="ialtura">Altura</label>
-                <input type="text" id="altura" name="ialtura" required>
+                <input type="text" id="altura" name="ialtura" required placeholder="1.70">
                 <button> Enviar </button>
             </form>
 

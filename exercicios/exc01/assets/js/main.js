@@ -6,7 +6,6 @@ function meuEscopo() {
     let peso = form.querySelector('#peso');
     let altura = form.querySelector('#altura');
 
-
     const pessoas = [];
 
     function recebeEventoForm(evento) {
@@ -28,15 +27,26 @@ function meuEscopo() {
         else if (peso.value <= 20 || peso.value >= 480) {
             resultados.innerHTML = `<br> <p>Peso invalido</p> `
 
-        } else if (altura.value <= 1.00 || altura >= 2.50) {
+        } else if (altura.value <= 1.00 || altura.value >= 2.50) {
             resultados.innerHTML = `<br> <p>Altura invalida</p> `
         } else {
-            resultados.innerHTML = `<br> <p>IMC: ${imc.toFixed(2)}</p>  `
-
-
+            if (imc <= 18.4) {
+                resultados.innerHTML = `<br> <p>IMC: ${imc.toFixed(2)} | Abaixo do peso</p> `
+            } else if (imc >= 18.5 && imc <= 24.9) {
+                resultados.innerHTML = `<br> <p>IMC: ${imc.toFixed(2)} | Peso normal</p> `
+            } else if (imc >= 25 && imc <= 29.9) {
+                resultados.innerHTML = `<br> <p>IMC: ${imc.toFixed(2)} | Sobrepeso </p> `
+            }
+            else if (imc >= 30 && imc <= 34.9) {
+                resultados.innerHTML = `<br> <p>IMC: ${imc.toFixed(2)} | Obesidade grau 1 </p> `
+            }
+            else if (imc >= 35 && imc <= 39.9) {
+                resultados.innerHTML = `<br> <p>IMC: ${imc.toFixed(2)} | Obesidade grau 2 </p> `
+            }
+            else if (imc > 40) {
+                resultados.innerHTML = `<br> <p>IMC: ${imc.toFixed(2)} | Obesidade grau 3 </p> `
+            }
         }
-
-
     }
     form.addEventListener('submit', recebeEventoForm);
 }
