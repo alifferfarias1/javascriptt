@@ -23,7 +23,7 @@ while (true) {
     const numero = Number(entrada);
     const numero2 = Number(entrada2);
 
-    if (Number.isInteger(numero) && numero > 0 && Number.isInteger(numero2) && numero2 > 0) {
+    if (Number.isInteger(numero) > 0 && Number.isInteger(numero2) > 0) {
         vetor.push(numero, numero2); // Adiciona o número ao vetor se for um inteiro positivo
 		break
 
