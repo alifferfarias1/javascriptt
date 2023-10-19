@@ -29,7 +29,7 @@ switch (diaSemana) {
         diaSemanaText = '';
 }
 
-console.log(diaSemana, diaSemanaText);
+console.log(diaSemanaText);
 
 
 
