@@ -15,14 +15,14 @@ function getNameMonth(numeroMes) {
 }
 
 function criaData(dataN) {
-    const diaSemana = dataN.getDay();
-    const numeroMes = dataN.getMonth();
+    const diaSemana = dataN.getDay(); // 1
+    const numeroMes = dataN.getMonth(); // 9
 
-    const nomeDia = getDayWeekText(diaSemana);
-    const nomeMes = getNameMonth(numeroMes);
+    const nomeDia = getDayWeekText(diaSemana); // segunda
+    const nomeMes = getNameMonth(numeroMes); // outubro
 
     return (
-        `${nomeDia}, ${dataN.getDate()} de ${nomeMes} ` +
+        `${nomeDia}, ${zeroEsquerda(dataN.getDate())} de ${nomeMes} ` +
         `de ${dataN.getFullYear()} ` +
         `${zeroEsquerda(dataN.getHours())}:${zeroEsquerda(dataN.getMinutes())}`
     );
