@@ -17,12 +17,12 @@ const a = {
   console.log('B = ',b);
 
 
-// caso queiramos que o valor de b não seja alterado caso alteremos o de a podemos fazer o seguinte
+// caso queiramos que o valor de b não seja alterado caso alteremos o de A podemos fazer o seguinte
 
 
 let x = [1, 2, 3]; // note que mesmo alterando o valor do x, não aconteceu nada com o y, pois usamos [...x] criamos uma copia em vez de referenciar o mesmo local na memoria
 let y = [...x]
 
-x[2] = 0
+y[2] = 0
 console.log('X = ',x)
 console.log('Y = ',y)

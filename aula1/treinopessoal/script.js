@@ -1,10 +1,10 @@
-const numero = Number(prompt('Digite o seu numero: '));
+const numeroString = prompt('Digite o seu numero: ');
+const numero = Number(numeroString);
 
 const numeroTitulo = document.getElementById('numero-titulo');
 const textoUm = document.getElementById('texto');
 
-numeroTitulo.innerHTML += numero;
-
+numeroTitulo.innerHTML = numero;
 let raizQuadrada = numero ** 0.5
 
 textoUm.innerHTML = ' '

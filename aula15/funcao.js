@@ -35,4 +35,4 @@ const raizGrande1 = (n) => { // pegando a raiz de um numero com a função anoni
     return n ** 0.5
 };
 
-console.log(raizGrande1(2));
+console.log(raizGrande1(49));
