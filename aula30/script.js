@@ -1,6 +1,7 @@
 // While e do While
 
 const nome = 'Luiz'
+
 let controle = 0;
 while (controle < 10) { // semelhante ao enquanto faça do visualg checa a condição antes de entrar no loop
     console.log(controle)
