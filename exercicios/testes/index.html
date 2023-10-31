@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <title>Site de medias</title>
+    
 </head>
+
 <body>
     <main>
         <div class="medias">
             <h1>Calcule a sua media entre duas notas!</h1>
             <form action="get" autocomplete="on">
-            <p>
-                <label for="nota">Insira sua 1º nota: </label>
-                <input type="number" id="nota" name="inota" maxlength="4">
-            </p>
-            <p>
-                <label for="nota2">Insira sua 2º nota: </label>
-                <input type="number" id="nota2" name="inota2" maxlength="4">
-            </p>
-            <p><input type="submit" value="Enviar"></p>
-        </form>
-        <section id="resultados">
-            <p>0.00</p>
-        </section>
+                <p>
+                    <label for="nota">Insira sua 1º nota: </label>
+                    <input type="number" id="nota" name="inota" maxlength="4">
+                </p>
+                <p>
+                    <label for="nota2">Insira sua 2º nota: </label>
+                    <input type="number" id="nota2" name="inota2" maxlength="4">
+                </p>
+                <p><input type="submit" value="Enviar"></p>
+            </form>
+            <section id="resultados">
+                <p id="p">0.00</p>
+            </section>
         </div>
     </main>
     <script src="script2.js"></script>
 </body>
+
 </html>

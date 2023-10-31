@@ -1,7 +1,7 @@
 function meuEscopo() {
     const form = document.querySelector('.medias');
     const resultados = document.querySelector('#resultados');
-    const paragrafos = resultados.querySelectorAll('p')
+    const paragrafo = document.querySelector('#resultados p')
 
     // const corPrimaria = getComputedStyle(root).getPropertyValue('--cor-primaria');
     // const tamanhoFonte = getComputedStyle(root).getPropertyValue('--tamanho-fonte');    
@@ -20,19 +20,18 @@ function meuEscopo() {
   
       if (media < 7) {
         resultados.innerHTML = reprovado(media);
-        paragrafos.forEach(paragrafo => {
-          paragrafo.style.backgroundColor = 'red';
-        });
+        paragrafo.style.backGroundColor = 'red' // const backgroundColorBody = estilosBody.backgroundColor; // selecionando o backgroundColor dos estilos
+
+        
       } else {
         resultados.innerHTML = `<p>Sua média é de ${media.toFixed(2)}</p>`;
-        paragrafos.forEach(paragrafo => {
-          paragrafo.style.backgroundColor = 'green';
-        });
+
+      
       }
     }
   
     function reprovado(media) {
-      return `<p>Você reprovou faltando: ${media.toFixed(2)} pontos </p>`;
+      return `<p>Você reprovou, nota de aprovação minima: 6, sua nota: ${media.toFixed(2)} pontos </p>`;
     }
   
     form.addEventListener('submit', recebeEventoForm);

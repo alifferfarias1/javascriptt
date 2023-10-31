@@ -2,6 +2,7 @@
     --cor-primaria: #ff0000; /* Exemplo de uma variável CSS personalizada */
     --cor-secundaria: green;  /* Outro exemplo */
 }
+
 *{
     margin: 0;
     padding: 0;
