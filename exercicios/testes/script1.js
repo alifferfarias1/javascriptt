@@ -8,7 +8,7 @@ function prodNums(A, B) {
 
 function quadSomaNums(A, B) {
     return (prodNums(A, A) + 2 * prodNums(A, B) + prodNums(B, B));
-}
+}                 // 9  + 30 + 25    
 
 console.log(somaNums(2, 5))
 console.log(prodNums(2, 2))
