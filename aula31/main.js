@@ -1,7 +1,7 @@
 const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 for (let numero of numeros){
-    // sempre queremos o codigo que nao queros executar abaixo da palavra continue
+    // sempre queremos o codigo que nao queremos executar abaixo da palavra continue
     if (numero === 2 || numero === 5){
         console.log('Pulei este numero:', numero);
         continue

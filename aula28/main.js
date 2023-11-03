@@ -11,7 +11,7 @@ const vetor = ['aliffer', 'sury', 'janaina'];
 //  }
 
 
- for (let valor of nome){ // nesse caso pega direto o valor em vez do indice como nos outros for
+ for (let valor of vetor){ // nesse caso pega direto o valor em vez do indice como nos outros for
     console.log(valor)
  }
 

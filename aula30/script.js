@@ -3,7 +3,7 @@
 const nome = 'Luiz'
 
 let controle = 0;
-while (controle < 10) { // semelhante ao enquanto faça do visualg checa a condição antes de entrar no loop
+while (controle <= 10) { // semelhante ao enquanto faça do visualg checa a condição antes de entrar no loop
     console.log(controle)
     controle++
 }
@@ -15,7 +15,7 @@ function random(min, max){
 }
 const min = 1
 const max = 50
-let rand = 10;
+let rand = 3;
 
 while (rand !== 10){
     rand = random(min, max);
