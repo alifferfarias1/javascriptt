@@ -23,6 +23,7 @@ function startClock() {
 
  document.addEventListener('click', function(e){
     const el = e.target;
+    
     if(el.classList.contains('iniciar')){
         relogio.classList.remove('pausado')
         clearInterval(timer)
