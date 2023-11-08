@@ -48,6 +48,7 @@ document.addEventListener('click', function (e) {
     const el = e.target;
     if (el.classList.contains('apagar')) {
         el.parentElement.remove()
+        saveTarefa()
     }
 
 });
@@ -61,7 +62,18 @@ function saveTarefa() {
         listaDeTarefas.push(tarefaTexto);
     }
 
-    const tarefaJSON = JSON.stringify(listaDeTarefas);
+    const tarefaJSON = JSON.stringify(listaDeTarefas); // aqui convertemos o objeto JS para objeto JSON
     localStorage.setItem('tarefas', tarefaJSON); // valor usado para recuperar é o primeiro parametro STR
     console.log(tarefaJSON);
 }
+
+function AddTarefaSalvas(){  // local storage é global pois é uma propriedade do navegador
+    const tarefas = localStorage.getItem('tarefas'); // aqui convertemos o objeto JSON para objeto JS de volta
+    const listaDeTarefas = JSON.parse(tarefas);
+
+    for (let tarefa of listaDeTarefas){
+        criaTarefa(tarefa)
+    }
+
+}
+AddTarefaSalvas();
