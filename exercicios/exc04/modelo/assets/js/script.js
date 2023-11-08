@@ -20,7 +20,7 @@ function startClock() {
         relogio.innerHTML = getTimeFromSeconds(seconds);
     }, 1000)
 }
-
+                                                                    
  document.addEventListener('click', function(e){
     const el = e.target;
     
