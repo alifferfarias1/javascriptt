@@ -9,7 +9,7 @@ const contaDuplicada = conta * 2;
 console.log(conta, contaDuplicada)
 
 let contaTriplicada = conta * 3;
-contaTriplicada = contaTriplicada + 5
+contaTriplicada += 5
 console.log(contaTriplicada)
 
 

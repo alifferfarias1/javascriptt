@@ -9,7 +9,7 @@ const variavel = saudacao('Luiz');
 console.log(variavel)
 
 // funcao de soma
-// declarei valores inicialmente para x e y caso, não seja enviado nenhum argumeto para seu parametro        
+// declarei valores inicialmente para x e y caso, não seja enviado nenhum argumento para seu parametro        
 function soma(x = 1, y = 7){
     let results = x + y;
     return  results;
@@ -31,7 +31,7 @@ const raiz = function (n) { // pegando a raiz de um numero com a função anonim
 console.log(raiz(9))
 
 // arrow function
-const raizGrande1 = (n) => { // pegando a raiz de um numero com a função anonima
+const raizGrande1 = (n) => { // pegando a raiz de um numero com a função arrow
     return n ** 0.5
 };
 

@@ -27,9 +27,9 @@ console.log(numImpreciso)
 numImpreciso += outroImpreciso;
 console.log(numImpreciso)
 
-numImpreciso = Number(numImpreciso.toFixed(2)) 
+numImpreciso = Number(numImpreciso.toFixed()) 
 
-console.log(numImpreciso)
+console.log(numImpreciso,  Number.isInteger(numImpreciso))
 numImpreciso += outroImpreciso;
 
 

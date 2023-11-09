@@ -20,7 +20,7 @@ const a = {
 // caso queiramos que o valor de b não seja alterado caso alteremos o de A podemos fazer o seguinte
 
 
-let x = [1, 2, 3]; // note que mesmo alterando o valor do x, não aconteceu nada com o y, pois usamos [...x] criamos uma copia em vez de referenciar o mesmo local na memoria
+let x = [1, 2, 3]; // note que mesmo alterando o valor do y, não aconteceu nada com o x, pois usamos [...x] criamos uma copia em vez de referenciar o mesmo local na memoria
 let y = [...x]
 
 y[2] = 0

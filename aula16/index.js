@@ -1,6 +1,6 @@
 // criando um array
 
-const arrai = [1, 2, 3];
+const array = [1, 2, 3];
 
 
 // criando um objeto 
