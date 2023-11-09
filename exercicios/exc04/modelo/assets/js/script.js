@@ -11,7 +11,7 @@ function getTimeFromSeconds(segundos) {
 
 const relogio = document.querySelector('.relogio');
 
-let seconds = 0;
+let seconds = 0; 
 let timer;
 
 function startClock() {
@@ -44,4 +44,5 @@ function startClock() {
 
 })
 }
+
 clock()
