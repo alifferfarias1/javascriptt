@@ -24,9 +24,8 @@
 
 
 let frutas = ['maça', 'pera', 'uva', 'manjericao', 'Jabuticaba', 'Mamão']
-for (let i = 0; i < frutas.length; i++) { // percorrendo um array
-    console.log(`indice: ${i}`, frutas[i])
-
+for (let i = 0; i < frutas.length; i++){
+    console.log(`${frutas[i]} indice: ${i}`);
 }
 
 

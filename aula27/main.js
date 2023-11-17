@@ -10,7 +10,6 @@ const pessoa = {
     idade: 20
 }
 
-
-for (let chave in pessoa){ // for in, ele le os indices
-    console.log(chave, pessoa[chave]);
+for (let chave in pessoa){
+    console.log(chave, pessoa[chave])
 }
