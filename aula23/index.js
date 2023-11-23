@@ -1,4 +1,4 @@
-const data = new Date('1987-04-26 00:00');
+const data = new Date('1987-04-27 00:00');
 
 let diaSemana = data.getDay();
 let diaSemanaText;

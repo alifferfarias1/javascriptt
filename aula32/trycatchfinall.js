@@ -33,7 +33,7 @@ function returnHour(data){
 try{
 
 const data = new Date(0)
-hora = returnHour(3)
+hora = returnHour(data)
 console.log(hora)
 
 } catch(e){

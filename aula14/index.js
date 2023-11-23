@@ -10,7 +10,7 @@ console.log(alunos instanceof Array);
 
 console.log(alunos.slice(0, -2));
 
-// console.log(alunos[50]);
+console.log(alunos[50])
 
 // delete alunos[1];
 // console.log(alunos[1]);

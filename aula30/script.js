@@ -28,6 +28,6 @@ while (rand !== 10){
 console.log('=========================================================')
 
 do {
-    rand = random(min, max); //executa pelo menos uma vez, semelhante ao repita até do Visualg
+    rand = random(min, max); //executa pelo menos uma vez, semelhante ao repita enquanto do Visualg
     console.log(rand)
 } while (rand !== 10);
