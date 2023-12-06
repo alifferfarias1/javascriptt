@@ -16,6 +16,7 @@ function formataData(data) {
 }
 
 const data = new Date('2019-04-07 20:20:59');
+console.log(data)
 
 const dataBrasil = formataData(data);
 console.log(dataBrasil)

@@ -19,11 +19,15 @@ const removido = alunos.shift();
 console.log(removido);
 console.log(alunos);
 
-// alunos.unshift('Fábio'); // Adiciona no começo
+alunos.unshift('Fábio'); // Adiciona no começo
+console.log(alunos);
+
 // alunos.unshift('Luiza');
 
 
-// alunos.push('Luiza'); // Adiciona no fim
+alunos.push('Luiza'); // Adiciona no fim
+console.log(alunos);
+
 // alunos.push('Fábio');
 
 // alunos[alunos.length] = 'Luiza';  // Adiciona no fim

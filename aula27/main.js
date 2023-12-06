@@ -13,3 +13,9 @@ const pessoa = {
 for (let chave in pessoa){
     console.log(chave, pessoa[chave])
 }
+
+const nums = [1, 2, 3, 4, 5, 6]
+
+for (let num in nums){
+    console.log(num, nums[num])
+}

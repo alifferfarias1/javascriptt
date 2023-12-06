@@ -8,7 +8,7 @@ const array = [1, 2, 3];
 const pessoa = {
     nome: 'Aliffer',
     sobrenome: 'Farias',
-    idade: 19
+    idade: 20
 
 };
 
@@ -30,8 +30,8 @@ function criaPessoa (nome, sobrenome, idade) {
 // function criaPessoa (nome, sobrenome, idade) {  
 //     return{nome, sobrenome, idade }; 
 // }
-const pessoa1 = criaPessoa('Aliffer', 'Farias', 19);
-const pessoa2 = criaPessoa('Sury', 'Farias', 18);
+const pessoa1 = criaPessoa('Aliffer', 'Farias', 20);
+const pessoa2 = criaPessoa('Sury', 'Farias', 19);
 const pessoa3 = criaPessoa('Junior', 'Barbosa', 39);
 const pessoa4 = criaPessoa('Ricardo', 'Oliveira', 76);
 const pessoa5 = criaPessoa('Iara', 'José', 23);
