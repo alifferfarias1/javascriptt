@@ -5,10 +5,10 @@ function meuEscopo() {
 
     function recebeEventoForm(e) {
         e.preventDefault();
-        
+
         const inpPeso = e.target.querySelector('#peso')
         const inpAltura = e.target.querySelector('#altura')
-    
+
         const peso = Number(inpPeso.value);
         const altura = Number(inpAltura.value);
 
@@ -43,11 +43,11 @@ function meuEscopo() {
         }
     }
     form.addEventListener('submit', recebeEventoForm);
-    
+
     function getImc(peso, altura) {
         const imc = peso / (altura * altura)
         return imc;
     }
-    
+
 }
 meuEscopo();

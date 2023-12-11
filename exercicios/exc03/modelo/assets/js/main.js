@@ -6,7 +6,6 @@ const elementos = [
 ]
   
 const container = document.querySelector('.container') // selecionando a class container do html
-
 for (let i = 0; i < elementos.length; i++){
      // aqui criamos um novo elemento primeiro elementos[0].tag que seria o <p> e assim por diante
     const novoElemento = document.createElement(elementos[i].tag) 

@@ -86,6 +86,6 @@ function setResultado(msg, isValid) {
 
     }
 
-    p.innerHTML = msg;
+    p.textContent = msg;
     resultado.appendChild(p)
 }

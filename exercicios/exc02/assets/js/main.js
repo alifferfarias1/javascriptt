@@ -1,9 +1,6 @@
 const h1 = document.querySelector('.container h1');
 const dataN = new Date('2019-10-07 22:52');
 
-const diaSemana = dataN.getDay();
-const numeroMes = dataN.getMonth();
-
 function getDayWeekText(diaSemana) {
     const weeks = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado'];
     return weeks[diaSemana];
