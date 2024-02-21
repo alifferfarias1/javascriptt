@@ -8,7 +8,7 @@ let indiceMassaCorporal;
 let anoNascimento;
 
 indiceMassaCorporal =  peso / (alturaEmMetros * alturaEmMetros);
-anoNascimento = 2023 - idade;
+anoNascimento = 2024 - idade;
 
 console.log(nome, sobrenome, 'tem', idade, 'anos, e pesa', peso,'Kg tem', alturaEmMetros, 'de altura e seu imc é de', indiceMassaCorporal, nome, 'nasceu em', anoNascimento)
 console.log('')

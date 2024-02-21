@@ -4,7 +4,7 @@ document.body.innerHTML += `Seu nome tem ${nome.length} letras <br>`;
 document.body.innerHTML += `A primeira letra do seu nome é ${nome.charAt(0)} <br>`;
 document.body.innerHTML += `Seu nome tem ${nome.split(' ')} essas palavras <br>`;
 
-let indice = nome.indexOf('f');
+let indice = nome.indexOf('f')
 let ultimoIndice = nome.lastIndexOf('f');
 let ultimasTres = nome.slice(-3, nome.length);
 let nomeGrande = nome.toUpperCase();
