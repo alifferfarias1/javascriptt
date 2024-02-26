@@ -1,12 +1,8 @@
 function saudacao(nome) {
-    return `Bom dia ${nome}`
-    
+    return `Bom dia ${nome}`    
 }
 
-
-
 const variavel = saudacao('Luiz');
-
 console.log(variavel)
 
 // funcao de soma
@@ -15,8 +11,8 @@ function soma(x = 1, y = 7){
     let results = x + y;
     return  results;
 }
-resultado = soma(1, 2)
 
+resultado = soma(1, 2)
 console.log(resultado)
 //poderiamos exibir direto no console.log(soma(1, 2))
 

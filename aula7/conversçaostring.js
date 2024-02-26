@@ -1,4 +1,4 @@
-let num1 = 1;
+let num1 =  1;
 let num2 = Number('5.2');
 
 

@@ -1,4 +1,5 @@
 const data = new Date('1987-04-27 00:00');
+console.log(data)
 
 let diaSemana = data.getDay();
 let diaSemanaText;
