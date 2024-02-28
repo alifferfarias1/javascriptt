@@ -9,7 +9,7 @@ console.log(variavel)
 // declarei valores inicialmente para x e y caso, não seja enviado nenhum argumento para seu parametro        
 function soma(x = 1, y = 7){
     let results = x + y;
-    return  results;
+    return results;
 }
 
 resultado = soma(1, 2)

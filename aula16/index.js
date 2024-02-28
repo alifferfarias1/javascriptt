@@ -9,7 +9,6 @@ const pessoa = {
     nome: 'Aliffer',
     sobrenome: 'Farias',
     idade: 20
-
 };
 
 // acessando as informações do objeto

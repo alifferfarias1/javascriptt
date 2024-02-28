@@ -9,15 +9,16 @@ const a = {
     sobrenome: 'Otávio'
   };
 
-  console.log(a.nome)
   const b = a;
+  console.log(a, b)
+  console.log(a.nome)
 
-  b.nome = 'João';
-  console.log('A = ',a);   // note que mesmo mudando apenas o b o valor de a foi alterado e se mudassemos a o de b também seria
-  console.log('B = ',b);
+b.nome = 'João';
+ console.log('A = ',a);   // note que mesmo mudando apenas o b o valor de a foi alterado e se mudassemos a o de b também seria
+   console.log('B = ',b);
 
 
-// caso queiramos que o valor de b não seja alterado caso alteremos o de A podemos fazer o seguinte
+// // caso queiramos que o valor de b não seja alterado caso alteremos o de A podemos fazer o seguinte
 
 
 let x = [1, 2, 3]; // note que mesmo alterando o valor do y, não aconteceu nada com o x, pois usamos [...x] criamos uma copia em vez de referenciar o mesmo local na memoria
