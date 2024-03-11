@@ -2,6 +2,7 @@ let nome = prompt('Digite o seu nome: ');
 
 document.body.innerHTML += `Seu nome tem ${nome.length} letras <br>`;
 document.body.innerHTML += `A primeira letra do seu nome é ${nome.charAt(0)} <br>`;
+document.body.innerHTML += `A ultima letra do seu nome é ${nome.charAt(-1)} <br>`;
 document.body.innerHTML += `Seu nome tem ${nome.split(' ')} essas palavras <br>`;
 
 let indice = nome.indexOf('f')
