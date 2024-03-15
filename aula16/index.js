@@ -24,7 +24,12 @@ function criaPessoa (nome, sobrenome, idade) {
         nome: nome,
         sobrenome: sobrenome,
         idade: idade,
+        fala (){
+            return `${this.nome} está falando oi..`
+        }
     }; 
+
+   
 } // quando o nome  dos objetos é igual ao parametro como nesse exemplo acima ^^ podemos abreviar a funcao
 // function criaPessoa (nome, sobrenome, idade) {  
 //     return{nome, sobrenome, idade }; 
@@ -41,8 +46,14 @@ console.log(pessoa3)
 console.log(pessoa4)
 console.log(pessoa5)
 
+const arrayObjs = [pessoa1, pessoa2, pessoa3, pessoa4, pessoa5]
+
+for (let chave in arrayObjs){
+    let objeto = (arrayObjs[chave]);
+    console.log(objeto.nome, objeto.sobrenome, objeto.idade, objeto.fala());
+}
 // acessando as informações do objeto criado pela funcao de criar objetos poderiamos acessar qualquer uma das 5 pessoas, ou apenas o nome sobrenome e idade individualmente
 
-console.log(pessoa3.nome)
-console.log(pessoa3.sobrenome)
-console.log(pessoa3.idade)
+// console.log(pessoa3.nome)
+// console.log(pessoa3.sobrenome)
+// console.log(pessoa3.idade)

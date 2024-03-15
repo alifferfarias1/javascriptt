@@ -8,7 +8,7 @@ console.log(alunos instanceof Array);
 // alunos.push('Luiza');
 // alunos.push('Eduardo'); add no final do array
 
-console.log(alunos.slice(0, -2));
+console.log(alunos.slice(0, -1));
 
 console.log(alunos[50])
 
