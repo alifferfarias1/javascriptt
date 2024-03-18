@@ -1,7 +1,7 @@
 //Operação ternaria
 // (condição) ? 'Valor para verdadeiro : 'Valor para falso';
 const pontuacaoUsuario = 999;
-
+                                           // se            // se nao   
 const nivelUsuario = pontuacaoUsuario >= 1000  ? 'Usuario vip' : 'Usuario normal';
 //Duas formas diferentes de fazer a checagem
 

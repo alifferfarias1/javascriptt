@@ -18,7 +18,7 @@ b.nome = 'João';
    console.log('B = ',b);
 
 
-// // caso queiramos que o valor de b não seja alterado caso alteremos o de A podemos fazer o seguinte
+// // caso queiramos que o valor de b não seja alterado caso alteremos o de A  ou vice-versa podemos fazer o seguinte
 
 
 let x = [1, 2, 3]; // note que mesmo alterando o valor do y, não aconteceu nada com o x, pois usamos [...x] criamos uma copia em vez de referenciar o mesmo local na memoria
