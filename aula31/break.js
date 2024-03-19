@@ -14,7 +14,7 @@ for (let i in numeros) {
 
     console.log(numero)
 }
-// porque que queremos executar está abaixo do break ele nao será executado, porém se quisessemos exibir o numero sete seria so botar o console.log acima do if
+// se quisessemos exibir o numero sete seria so botar o console.log acima do if
 
 console.log('###')
 
